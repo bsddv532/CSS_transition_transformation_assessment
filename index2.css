@@ -1,0 +1,88 @@
+#parent-div2{
+    background: yellow;
+}
+
+#heading2{
+   text-align: center;
+}
+
+#box-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    background:#8dbf26;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.box1{
+    transition: width 3s;
+}
+
+.box1:hover{
+    /* transform: scaleX(2); */
+    width: 300px;
+}
+
+.box2{
+    transition: width 3s, height 3s;
+}
+
+.box2:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.box3{
+    transition: width 3s;
+    transition-timing-function: linear;
+}
+
+.box3:hover{
+    width: 300px;
+}
+
+.box4{
+    transition: width 3s;
+    transition-timing-function: ease;
+}
+
+.box4:hover{
+    width: 300px;
+}
+
+.box5{
+    transition: width 3s;
+    transition-timing-function: ease-in;
+}
+
+.box5:hover{
+    width: 300px;
+}
+
+.box6{
+    transition: width 3s;
+    transition-timing-function: ease-out;
+}
+
+.box6:hover{
+    width: 300px;
+}
+
+.box7{
+    transition: width 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.box7:hover{
+    width: 300px;
+}
+
+a{
+    font-size: 30px;
+    margin-left: 50%;
+}
+

@@ -1,0 +1,140 @@
+#parent-div1{
+    background: yellow;
+}
+
+#heading1{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 180px;
+}
+
+#container1{
+    display: flex;  
+    justify-content: center;
+}
+
+.first{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 50px;
+    transform: skewX(30deg);
+    animation-name: first_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes first_animation {
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+
+#container2{
+    display: flex;  
+    justify-content: center;
+}
+
+.second{
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    margin: 50px;
+    transform: skewY(30deg);
+    animation-name: second_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes second_animation {
+    100%{
+        transform: skewY(-30deg);
+    }
+}
+
+
+#container3{
+    display: flex;  
+    justify-content: center;
+}
+
+.third{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 50px;
+    animation-name: third_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes third_animation {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#container4{
+    display: flex;  
+    justify-content: center;
+}
+
+.fourth{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+
+.fourth1{
+    background: teal;
+    animation-name: fourth1_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fourth1_animation {
+    100%{
+        transform: scaleY(0.5);
+    }
+}
+
+.fourth2{
+    background: maroon;
+    animation-name: fourth2_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fourth2_animation {
+    100%{
+        transform: scaleX(0.5);
+    }
+}
+
+.fourth3{
+    background:mediumspringgreen;
+    animation-name: fourth3_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fourth3_animation {
+    100%{
+        transform: rotate(90deg);
+    }
+}
+
+a{
+    color: darkblue;
+    font-size: 30px;
+    margin-left: 39%;
+}
+
